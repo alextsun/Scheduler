@@ -3,31 +3,35 @@
 	<head>
 		<meta charset="utf-8">
     	<title>Registration</title>
-    	<link rel="stylesheet" type="text/css" href="practice.css" />
+    	<link rel="stylesheet" type="text/css" href="index.css" />
 	</head>
-
+	<script src = "handleinput.js"> </script
+>
 	<body>
 		<h1>Registration</h1>
-		<form action="handleregistration.php" method="post">
+		<form method="post">
 			Username: 
 			<input type="text" name="username"><br />
 			Password: 
-			<input type="password" name ="password1"><br />
+			<input type="password" name ="password1" id = "password1"><br />
 			Confirm Password: 
-			<input type="password" name ="password2"><br />
+			<input type="password" name ="password2" id = "password2"><br />
 			First Name: 
 			<input type="text" name ="firstname"><br />
 			Last Name: 
 			<input type="text" name ="lastname"><br />
 			Email: 
-			<input type="text" name ="email"><br />
+			<input type="text" name ="email" id = "email"><br />
 			University/College: 
 			<select name="college">
 			    <option value="A">A</option>
 			    <option value="B">B</option>
 			    <option value="-">C</option>
 			</select> <br />
-			<input type="submit" value="Submit" />
+			<button id = "submit" type="submit"> submit </button>
 		</form>
+			<button id = "submit2" type="submit"> submit </button>
+
 	</body>
 </html>
+
