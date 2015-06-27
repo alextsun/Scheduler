@@ -1,9 +1,4 @@
 <?php 
-	if(isset($_POST["username"])) {
-		echo("good");
-	} else {
-		echo("bad");
-	}
 	$username = $_POST["username"];
 	$password1 = $_POST["password1"];
 	$password2 = $_POST["password2"];
